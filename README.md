@@ -1,17 +1,38 @@
-# WELCOME TO MY PROJECT BRUH
+# States Quiz Generator
 
+Generates **US state capital quizzes** with shuffled multiple-choice questions and matching answer cheat sheets — perfect for classroom drills or self-study.
 
+![Python](https://img.shields.io/badge/Python-3-3776AB?style=flat-square&logo=python&logoColor=white)
 
-i know it sucks but i need the experience my g.
+## Features
 
+- All **50 US states + capitals** in `states.py`
+- Randomized **4-option multiple choice** per question
+- Outputs `quizN.txt` and `cheatsheetN.txt` per run
+- Shell wrapper `quizgame.sh` for quick generation
 
-If you wanna create a test for kids on geog about the us states and wanna have the questions jumbled up,(Absolutely nobody needs this...)
-then this is the place to beeeeeeeeee.
+## Quick start
 
+```bash
+python3 quizgame.py
+# or
+bash quizgame.sh
+```
 
-All you have to do is just run pythonquizgame.py
+Check the generated `.txt` files in the project directory.
 
-it works on everything bruh.
+## Project layout
 
+```
+quizgame.py    # Quiz generator logic
+states.py      # State → capital dictionary
+quizgame.sh    # Convenience runner
+```
 
-Thanks bruhhhhhhhhhhhhhhhhh
+## Example output
+
+Each quiz file contains numbered questions with four capital choices; the cheat sheet lists correct answers for the teacher.
+
+---
+
+[malimba](https://github.com/malimba)
